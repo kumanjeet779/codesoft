@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+.nav{
+       /* height: 12vh; */
+       /* background:linear-gradient(75deg,rgb(239, 100, 223),rgb(111, 202, 223),rgb(122, 255, 129)); */
+       margin-bottom: 20px;
+}
+.content{
+       width: 90%;
+       margin: auto;
+}
+.head-container{
+       display: flex;
+       align-items: center;
+       padding-top: 20px;
+       justify-content: space-between;
+       margin-top: 5vh;
+       border: 3px solid black;
+       padding: 25px;
+       border-radius: 20px;
+       background:linear-gradient(75deg,rgb(122, 255, 129),rgb(222, 46, 201),rgb(111, 202, 223));
+       
+}
+.head-container .icons{
+       display: flex;
+       gap: 0.5vw;
+}
+.phone{
+       font-family: "Roboto Slab", serif;
+       display: flex;
+       align-items: center;
+       gap: 1vw;
+
+}
+.start{
+       font-family: "Roboto Slab", serif;
+       border: 2px solid black;
+       border-radius: 150px;
+       padding: 8px;
+       /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes slideFromLeft{
+       0%{
+           opacity: 0;
+           transform: translateX(-30%);
+       }
+       100%{
+           opacity: 1;
+           transform: translateX(0);
+       }
+   }
+
+.down-container{
+       height: 12vh;
+       font-family: "Roboto Slab", serif;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       border: 3px solid black;
+       padding: 25px;
+       border-radius: 20px;
+       margin-top: 5vh;
+       margin-bottom: 5vh;
+       background:linear-gradient(75deg,rgb(122, 255, 129),rgb(222, 46, 201),rgb(111, 202, 223));
+       animation: slideFromLeft 1s ease forwards;
+}
+.search{
+       display: flex;
+       align-items: center;
+       border: 2px solid black;
+       border-radius: 8px;
+       padding: 4px;
+}
+.search input{
+       height: 4vh;
+       outline: none;
+       border: none;
+       padding: 4px;
+       background: none;
+}
+.fa-magnifying-glass{
+       padding: 2px;
+       height: 4vh;
+       cursor: pointer;
+}
+.page-icon{
+       display: flex;
+       align-items: center;
+      
+} 
+.page-icon img{
+       width: 3vw;
+       margin-right: 5px;
+}
+.fa-pager{
+       margin-right: px;
+       
+}
+.next-page{
+       display: flex;
+       gap: 4vw;
+       align-items: center;
+       /* justify-content: space-between; */
+}
+.img-container img{
+       height: 70vh;
+       width:89vw;
+       margin: auto;
+}
+.work-container{
+       height: 20vh;
+       /* background:linear-gradient(75deg,rgb(239, 100, 223),rgb(111, 202, 223),rgb(122, 255, 129)); */
+       
+}
+.work-content{
+       margin-top: 7vh;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-top: 20px;
+       border: 3px solid black;
+       padding: 25px;
+       border-radius: 20px;
+       background:linear-gradient(75deg,rgb(122, 255, 129),rgb(222, 46, 201),rgb(111, 202, 223));
+}
+.work-dis{
+       display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.aboutus{
+       margin-top: 26vh;
+       display: flex;
+       /* align-items: center; */
+       justify-content: space-evenly;
+       border: 3px solid black;
+       padding: 25px;
+       border-radius: 20px;
+       background:linear-gradient(75deg,rgb(122, 255, 129),rgb(222, 46, 201),rgb(111, 202, 223));
+       
+}
+
+.des-sec{
+       animation: slideFromLeft 1s ease forwards;
+}
+@keyframes slideFromRight{
+       0%{
+           opacity: 0;
+           transform: translateX(30%);
+       }
+       100%{
+           opacity: 1;
+           transform: translateX(0);
+       }
+   }
+.img-sec img{
+       height: 70vh;
+       width: 40vw;
+       margin-top: 4vh;
+       animation: slideFromRight 1s ease-in-out ;
+}
+
+
+.service{
+       margin-top: 10vh;
+       border: 3px solid black;
+       padding: 25px;
+       border-radius: 20px;
+       background:linear-gradient(75deg,rgb(122, 255, 129),rgb(222, 46, 201),rgb(111, 202, 223));
+       
+}
+.service h1{
+       font-family: "Roboto Slab", serif;
+}
+.serices-img{
+       margin-top: 5vh;
+       display: flex;
+      justify-content: space-between;
+      gap: 2vw;
+     
+}
+.img img{
+       height: 40vh;
+
+}
+.foot{
+       height: 8vh;
+       margin-top: 40px;
+       margin-bottom: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 3px solid black;
+       padding: 25px;
+       border-radius: 20px;
+}
+.head-nav{
+       background:linear-gradient(75deg,rgb(122, 255, 129),rgb(222, 46, 201),rgb(111, 202, 223));
+       
+}
