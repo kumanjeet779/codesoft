@@ -1,0 +1,18 @@
+.bg-red{
+    background: rgb(85, 255, 43);
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.bg-gray{
+    background: rgb(39, 39, 39);
+}
